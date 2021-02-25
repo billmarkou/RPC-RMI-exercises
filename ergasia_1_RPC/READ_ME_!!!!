@@ -1,0 +1,9 @@
+Run rpc server with ./ask_server
+After run rpc client with ./ask_client 2020 localhost     // (portno, host)
+Lastly run the client with ./client localhost 2020        // (host, portno)
+
+OR using npm with :
+
+npm run rpc (running rpc server)
+npm run server (running the rpc client with 2021 and localhost)
+npm run client (running client with localhost 2021)

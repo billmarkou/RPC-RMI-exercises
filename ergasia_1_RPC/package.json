@@ -1,0 +1,9 @@
+{
+  "name": "sockets",
+  "scripts": {
+    "make": "/bin/bash _make.sh", 
+    "client": "npm run make && /bin/bash _client.sh",
+    "server": "npm run make && /bin/bash _server.sh",
+    "rpc": "npm run make && /bin/bash _rpc.sh"
+  }
+}
